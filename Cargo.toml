@@ -78,7 +78,7 @@ rust.rust_2018_idioms = "deny"
 [workspace.package]
 version = "0.1.0-alpha.15"
 edition = "2021"
-rust-version = "1.75"
+rust-version = "1.70"
 license = "MIT OR Apache-2.0"
 homepage = "https://paradigmxyz.github.io/reth"
 repository = "https://github.com/paradigmxyz/reth"
@@ -169,8 +169,8 @@ alloy-primitives = "0.6"
 alloy-dyn-abi = "0.6"
 alloy-sol-types = "0.6"
 alloy-rlp = "0.3"
-alloy-rpc-types = { git = "https://github.com/alloy-rs/alloy" }
-alloy-rpc-trace-types = { git = "https://github.com/alloy-rs/alloy" }
+alloy-rpc-types = { git = "https://github.com/alloy-rs/alloy", rev = "ba70833" }
+alloy-rpc-trace-types = { git = "https://github.com/alloy-rs/alloy", rev = "ba70833" }
 alloy-trie = "0.2"
 ethers-core = { version = "2.0", default-features = false }
 ethers-providers = { version = "2.0", default-features = false }
